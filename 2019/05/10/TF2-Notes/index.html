@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Keras 快速入门 构建好模型后，通过调用 compile 方法配置该模型的学习流程 1234567model = tf.keras.Sequential()model.add(layers.Dense(32, activation=&apos;relu&apos;))model.add(layers.Dense(32, activation=&apos;relu&apos;))model.add(layers.Dense(10,">
+<meta name="description" content="Keras 快速入门">
 <meta name="keywords" content="Tensorflow">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TF2_Notes">
 <meta property="og:url" content="http://blog.chaopengz.top/2019/05/10/TF2-Notes/index.html">
 <meta property="og:site_name" content="技术自留地">
-<meta property="og:description" content="Keras 快速入门 构建好模型后，通过调用 compile 方法配置该模型的学习流程 1234567model = tf.keras.Sequential()model.add(layers.Dense(32, activation=&apos;relu&apos;))model.add(layers.Dense(32, activation=&apos;relu&apos;))model.add(layers.Dense(10,">
+<meta property="og:description" content="Keras 快速入门">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-15T09:40:27.770Z">
+<meta property="og:updated_time" content="2019-09-15T09:52:44.586Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TF2_Notes">
-<meta name="twitter:description" content="Keras 快速入门 构建好模型后，通过调用 compile 方法配置该模型的学习流程 1234567model = tf.keras.Sequential()model.add(layers.Dense(32, activation=&apos;relu&apos;))model.add(layers.Dense(32, activation=&apos;relu&apos;))model.add(layers.Dense(10,">
+<meta name="twitter:description" content="Keras 快速入门">
 
 
 
@@ -389,8 +389,8 @@
       
 
       
-        <a id="more"></a>
-<h2 id="Keras-快速入门"><a href="#Keras-快速入门" class="headerlink" title="Keras 快速入门"></a><strong>Keras 快速入门</strong></h2><ul>
+        <h2 id="Keras-快速入门"><a href="#Keras-快速入门" class="headerlink" title="Keras 快速入门"></a><strong>Keras 快速入门</strong></h2><a id="more"></a>
+<ul>
 <li><p>构建好模型后，通过调用 compile 方法配置该模型的学习流程</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">model = tf.keras.Sequential()</span><br><span class="line">model.add(layers.Dense(<span class="number">32</span>, activation=<span class="string">'relu'</span>))</span><br><span class="line">model.add(layers.Dense(<span class="number">32</span>, activation=<span class="string">'relu'</span>))</span><br><span class="line">model.add(layers.Dense(<span class="number">10</span>, activation=<span class="string">'softmax'</span>))</span><br><span class="line">model.compile(optimizer=tf.keras.optimizers.Adam(<span class="number">0.001</span>),</span><br><span class="line">             loss=tf.keras.losses.categorical_crossentropy,</span><br><span class="line">             metrics=[tf.keras.metrics.categorical_accuracy])</span><br></pre></td></tr></table></figure>
 </li>
