@@ -36,7 +36,7 @@
   <entry>
     <title><![CDATA[Sliding Window]]></title>
     <url>%2F2019%2F03%2F27%2FSliding-Window%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[双指针 begin 左指针，窗口起点 end 右指针，窗口终点 用map维护是否满足条件了 统计target的字符情况 1234for(auto c:target)&#123; m[c]++;&#125; end走一步，一个字符进窗口了 123m[c]--if(m[c]==0) counter--; begin走一步，一个字符离开窗口了 123m[c]++if(m[c]==1) counter++;]]></content>
       <categories>
         <category>Leetcode</category>
       </categories>
